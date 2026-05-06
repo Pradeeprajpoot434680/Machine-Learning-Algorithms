@@ -111,3 +111,5 @@ r2 = r2_score(y_test, y_pred)
 print("Model Accuracy (R² Score):", r2)
 plt.legend()
 plt.show()
+
+

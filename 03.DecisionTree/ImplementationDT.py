@@ -118,7 +118,7 @@ def build_tree(df, target, features=None):
     if is_pure(df[target]):
         return df[target].iloc[0]
     
-    # 4️⃣ Stopping condition: no features left
+    # 4️Stopping condition: no features left
     if len(features) == 0:
         return majority_class(df[target])
     

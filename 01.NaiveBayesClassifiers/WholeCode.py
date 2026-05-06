@@ -191,8 +191,7 @@ def compare_with_sklearn(encoded_data, labels):
 
 if __name__ == "__main__":
     # 1. Load the CSV
-    # df = pd.read_csv('Iris.csv')
-    df = pd.read_csv('diabetes.csv')
+    df = pd.read_csv('Iris.csv')
 
     # 2. Cleanup: Remove 'Id' if it exists, as it's not a real feature
     if 'Id' in df.columns:
