@@ -52,7 +52,7 @@ class NaiveBayesClassifier:
     # --------------------------------------------------
     def summarize_dataset(self, dataset):
         summaries = []
-        for column in zip(*dataset):
+        for column in zip(*dataset): # col wise 
             summaries.append((self.mean(column), self.variance(column)))
         return summaries
 
