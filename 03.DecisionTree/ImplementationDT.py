@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 # }
 
 # Create DataFrame
-# df = pd.DataFrame(data)
+# df = pd.DaX_b.T @ X_taFrame(data)
 # df = df.drop(columns=['Day'])
 # Display DataFrame
 # print(df)
